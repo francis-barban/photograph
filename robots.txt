@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.thierrydubreuil.com/sitemap.xml
+Disallow: /logs/
+Disallow: /images/
+Disallow: /js/
+Disallow: /system/
+Disallow: /ressources/
+Disallow: /styles/
+Disallow: /user_guide/
+
+

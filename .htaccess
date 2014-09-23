@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|js|styles|user_guide|robots\.txt|sitemap\.xml|sitemap\.xml\.gz|LiveSearchSiteAuth\.xml)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+
